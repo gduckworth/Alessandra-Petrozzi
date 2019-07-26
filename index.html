@@ -1,0 +1,64 @@
+---
+layout: single
+permalink: /
+classes: wide
+sidebar:
+  nav: "sidenav"
+feature_row:
+  - image_path: images/hookdtc.jpg
+    alt: "Hook Secure Digital Transformation Centre"
+    title: "Hook Secure Digital Transformation Centre"
+    excerpt: "The Digital Transformation Centre demonstrates real life examples of digital transformation in action.
+
+    <br>  - [Learn about the Centre](https://github.com/pages/gduckworth/hook2/overview/)
+
+    <br>  - [A Typical Visit to the Centre](https://github.com/pages/gduckworth/hook2/visit/)
+
+    <br>  - [How to Engage with the Centre](https://github.com/pages/gduckworth/hook2/engage/) "
+
+
+  - image_path: images/gearhead.jpg
+    alt: "Digital Transformation: Workplace Ecosystem"
+    title: "Digital Transformation: Workplace Ecosystem"
+    excerpt: "The Digital Transformation Centre embodies a a unique way of working to provide valuable digital solutions.
+
+    <br>  - [Product Development Approach](https://github.com/pages/gduckworth/hook2/pda/)
+
+    <br>  - [Culture and Talent](https://github.com/pages/gduckworth/hook2/culture/) 
+
+    <br>  - [Capabilities and Services](https://github.com/pages/gduckworth/hook2/capability/) 
+
+
+"
+
+---
+<style>
+ .page {
+    padding-right: 30px; /*DXC Customization - override content padding for main page*/
+  }
+</style>
+
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+
+<script src="ism/js/ism-2.2.min.js"></script>
+
+<div class="ism-slider" data-buttons="false" id="my-slider">
+  <ol>
+    <li>
+      <img src="images/Img_slider1.jpg">
+      <a class="ism-caption ism-caption-0" href="{{ '/posts/' | relative_url}}" target="_self" data-delay='100' style="color:white;"> Read </a>
+
+    </li>
+    <li>
+      <img src="images/Img_slider2.jpg">
+      <a class="ism-caption ism-caption-0" href="{{ '/overview/' | relative_url}}" target="_self" data-delay='100' style="color:white;"> Explore </a>
+    </li>
+    <li>
+      <img src="images/Img_slider3.jpg">
+      <a class="ism-caption ism-caption-0" href="{{ '/engage/' | relative_url}}" target="_self" data-delay='100' style="color:white;"> Visit </a>
+    </li>
+  </ol>
+</div>
+
+{% include feature_row id="intro" type="center" %}
+{% include feature_row id="feature_row" type="left" %}

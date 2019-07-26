@@ -1,0 +1,84 @@
+<style>
+    .image-single {position: relative; overflow: auto; margin-left: -1%!important;}
+    .image-single a {float: left; display: block; margin: 0 0 1% 1%; text-align: center; text-decoration: none!important;}
+    .image-single a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 2px 0;}
+    .image-single a img {display: block;}
+
+    .top-right {position: absolute; top: 2px; right: 2px;}
+    .top-left {position: absolute; top: 2px; left: 2px;}
+</style>
+
+<div class="image-single">
+
+{% assign filenameparts = include.path | split: "/" %}
+{% assign filename = filenameparts | last | replace: file.extname,"" %}
+
+{% if include.title %}
+  {% assign use_title = include.title %}
+  {% assign use_hover = include.title %}
+{% else %}
+  {% assign use_title = filename %}
+  {% assign use_hover = filename %}
+{% endif %}
+
+{% if include.caption %}
+  {% if include.caption != "false" and include.caption != "FALSE" and include.caption != "False" %}
+    {% assign use_title = include.caption %}
+  {% endif %}
+{% endif %}
+
+{% if include.path contains "://" %}
+  {% assign use_image_path = include.path %}
+{% else %}
+  {% assign use_image_path = site.url | append: site.baseurl | append: include.path %}
+{% endif %}
+
+{% if include.url %}
+  {% if include.url contains "://" %}
+    {% assign use_url = include.url %}
+  {% else %}
+    {% assign use_url = site.url | append: site.baseurl | append: include.url %}
+  {% endif %}
+  {% assign use_target = "_blank" %}
+{% else %}
+  {% assign use_url = use_image_path %}
+  {% assign use_target = "_self" %}
+{% endif %}
+
+  <a href="{{ use_url }}" title="{{ use_title }}" target="{{ use_target }}">
+    <img src="{{ use_image_path }}" alt="{{ filename }}" title="{{ use_hover }}" style="width:{{ include.width }}">
+
+    <div class="top-right" style="font-size:50%">
+
+    {% if include.url %}
+
+      {% if include.url contains ".pdf" %}
+
+      {% assign url_filenameparts = include.url | split: "/" %}
+      {% assign url_filename = url_filenameparts | last | replace: file.extname,"" %}
+      {% assign url_newname = "NCLDTC_" | append: url_filename %}
+
+      <a href="{{ use_url }}" title="{{ use_title }}" download="{{ url_newname }}">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/DownloadIcon.png"  title="Click to Download" style="width:14px;height:14px;" >
+      </a>
+
+      {% else %}
+
+      <a href="{{ use_image_path }}" title="{{ use_title }}" >
+        <img src="{{ site.url }}{{ site.baseurl }}/images/ZoomIcon.png"  title="Click to Zoom" style="width:14px;height:14px;" >
+      </a>
+
+      {% endif %}
+
+    {% endif %}
+
+    </div>
+
+  </a>
+</div>
+
+{% if include.caption != "false" and include.caption != "FALSE" and include.caption != "False" %}
+<div style="font-size:60%; text-align:center; padding-bottom:1.2em; width:{{ include.width }}">
+  <i>{{ use_title }}</i>
+</div>
+{% endif %}
