@@ -14,7 +14,7 @@ title                    : "Hook Secure Digital Transformation Centre "
 title_separator          : "-"
 name                     : "Hook Secure Digital Transformation Centre"
 description              : "Test GitHub page for Hook DTC"
-url                      : https://github.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #baseurl                  : /pages/gduckworth/hook2 # updated to test local version of pages, revert for merge
 #repository               : /gduckworth/hook2 # updated to test local version of pages, revert for merge
 baseurl                  : /pages/gduckworth/hook2 # the subpath of your site, e.g. "/blog"
