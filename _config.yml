@@ -15,11 +15,11 @@ title_separator          : "-"
 name                     : "Alessandra Petrozzi"
 description              : "Test GitHub page for Alessandra Petrozzi"
 url                      : https://gduckworth.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#baseurl                  : /hook2 # updated to test local version of pages, revert for merge
-#repository               : /hook2 # updated to test local version of pages, revert for merge
-baseurl                  : /Alessandra-Petrozzi # the subpath of your site, e.g. "/blog"
+#baseurl                  : /Alessandra-Petrozzi# updated to test local version of pages, revert for merge
+#repository               : /Alessandra-Petrozzi# updated to test local version of pages, revert for merge
+baseurl                  : /Alessandra-Petrozzi# the subpath of your site, e.g. "/blog"
 base_path                : #/AET/PoC3-RemoteTheme # path to images folder
-repository               : /Alessandra-Petrozzi # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : /Alessandra-Petrozzi# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200

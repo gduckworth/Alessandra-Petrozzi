@@ -29,3 +29,10 @@
 <!-- make Powered By bold -->
 <div class="page__footer-copyright"><strong>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/" rel="nofollow">Minimal Mistakes</a>. </strong></div>
 
+<!--DXC customization add contribute section-->
+<br/>
+<div class="page__footer-follow">
+  <i class="fab fa-fw fa-inverse fa-github"></i> Help us make this site awesome:
+  <a href="{{site.github.repository_url}}/edit/master/{{page.path}}"><i class="fa fa-edit"></i> edit this page</a>,
+  <a href="{{site.github.repository_url}}/issues/new?labels=bug"><i class="fa fa-bug"></i> report an issue</a></p>
+</div>
