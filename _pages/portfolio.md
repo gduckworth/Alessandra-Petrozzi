@@ -298,7 +298,7 @@ sidebar:
 
     Instafeed.prototype._makeTemplate = function(template, data) {
       var output, pattern, ref, varName, varValue;
-      pattern = /(?:\{{2})([\w\[\]\.]+)(?:\}{2})/;
+      pattern = /(?:\{{2}})([\w\[\]\.]+)(?:\}{2})/;
       output = template;
       while (pattern.test(output)) {
         varName = output.match(pattern)[1];
