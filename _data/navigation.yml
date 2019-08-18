@@ -5,7 +5,7 @@ main:
     url: /index.html
   - title: "About"
     url: /overview/
-  - title: "Portfolio"
+  - title: "Gallery"
     url: /portfolio/
   - title: "Get in Touch"
     url: /contact/
