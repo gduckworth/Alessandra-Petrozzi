@@ -16,7 +16,7 @@ sidebar:
     var feed = new Instafeed({
         get: 'tagged',
         tagName: 'watergreytattoo',
-        clientId: 'alessandra_petrozzi'
+        clientId: 'bfd5aafc0a674124a18ba1caecd02300'
     });
     feed.run();
 </script>
