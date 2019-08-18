@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Testionials"
-permalink: /Testimonials/
+permalink: /testimonials/
 author_profile: false
 sidebar:
   nav: "sidenav"
