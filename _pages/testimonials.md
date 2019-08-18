@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Podcast"
-permalink: /podcast/
+title: "Testionials"
+permalink: /Testimonials/
 author_profile: false
 sidebar:
   nav: "sidenav"

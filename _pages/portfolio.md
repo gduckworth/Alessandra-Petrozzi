@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Guilds"
-permalink: /guilds/
+title: "Portfolio"
+permalink: /portfolio/
 author_profile: false
 sidebar:
   nav: "sidenav"

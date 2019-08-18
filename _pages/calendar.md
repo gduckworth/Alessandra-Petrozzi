@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Videos"
-permalink: /videos/
+title: "Schedule a Session"
+permalink: /calendar/
 author_profile: false
 sidebar:
   nav: "sidenav"

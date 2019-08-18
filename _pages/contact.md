@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Capabilities and Services"
-permalink: /capability/
+title: "Get in Touch"
+permalink: /contact/
 author_profile: false
 sidebar:
   nav: "sidenav"

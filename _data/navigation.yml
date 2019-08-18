@@ -5,55 +5,25 @@ main:
     url: /index.html
   - title: "About"
     url: /overview/
-  - title: "Blog"
-    url: /posts/
-  - title: "Podcast"
-    url: /podcast/
-  - title: "Glossary"
-    url: /glossary/
-  - title: "Feedback"
-    url: https://github.dxc.com/gduckworth2/Hook/issues/new
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Get in Touch"
+    url: /contact/
+
 
 # controls sidenav Menu options
 sidenav:
   - title: "Quick Links" #creates a group with this as title
     children: #subsequent entries are chidren to above group
-    - title: " Example Use Cases and Solutions"
-      url: /usecases/
+    - title: " Schedule a Session"
+      url: /calendar/
 
-    - title: " Videos"
-      url: /videos/
+    - title: " Testimonials"
+      url: /testimonials/
 
-    - title: " Additional Collateral"
-      url: /collateral/
+    - title: " Portfolio"
+      url: /portfolio/
 
-    - title: " Guilds"
-      url: /guilds/
-
-    - title: " Request a Visit"
-      url: /engage/
-
-
-
-  - title: "Internal DXC Presence"
-    children:
-    - title: " Workplace Group: Digital Transformation Centre"
-      url: https://dxc.workplace.com/groups/DigitalTransformationCentre/?saml_reauth=1564128775
-      image: DXC-Link-Icon.png
-    - title: " What We Sell"
-      url: https://whatwesell.dxc.com/dxc/support/client-engagement-centers/digital-transformation-center/
-
-  - title: "Other Links"
-    children:
-    - title: " Newcastle DTC GitHub Page"
-      url: https://github.dxc.com/pages/NewcastleDigitalTransformationCentre/docs/
-    - title: " DXC DTCs: Turn Ideas into Actions"
-      url: https://www.dxc.technology/digital_transformation/flxwd/146805-digital_transformation_centers
-
-  - title: "Collaborate with Us..."
-    children:
-    - title: " Contribute to this Site"
-      url: /contributing/
-    - title: " Feedback"
-      url: https://github.dxc.com/gduckworth2/Hook/issues/new
+    - title: " Contact"
+      url: /contact/
 
