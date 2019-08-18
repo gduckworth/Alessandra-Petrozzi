@@ -12,15 +12,15 @@ sidebar:
 
 <script type="text/javascript" src="path/to/instafeed.min.js"></script>
 
-<script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'watergreytattoo','test'
-        clientId: 'bfd5aafc0a674124a18ba1caecd02300'
-    });
-    feed.run();
-</script>
+<div id="instafeed"></div>
 
+var feed = new Instafeed({
+            get: 'user',
+            userId: 'dumbobert',
+            template: '<a href="{{link}}"><img class="insta-image" src="{{image}}" /></a>',
+            accessToken: 'bfd5aafc0a674124a18ba1caecd02300'
+        });
+        feed.run();
 
 <p>Please be aware this page is currently under construction and should be available in the near future.</p>  
   {% for post in site.podcast %}
