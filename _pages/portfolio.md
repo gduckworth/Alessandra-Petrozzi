@@ -15,7 +15,7 @@ sidebar:
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'tagged',
-        tagName: 'watergreytattoo',
+        tagName: 'watergreytattoo','test'
         clientId: 'bfd5aafc0a674124a18ba1caecd02300'
     });
     feed.run();
