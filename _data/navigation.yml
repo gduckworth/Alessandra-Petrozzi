@@ -15,7 +15,7 @@ main:
 sidenav:
   - title: "Quick Links" #creates a group with this as title
     children: #subsequent entries are chidren to above group
-    - title: " Schedule a Session"
+    - title: " Book a Tattoo Session"
       url: /calendar/
 
     - title: " Testimonials"
