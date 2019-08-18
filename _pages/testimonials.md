@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Testionials"
+title: "Testimonials"
 permalink: /testimonials/
 author_profile: false
 sidebar:
