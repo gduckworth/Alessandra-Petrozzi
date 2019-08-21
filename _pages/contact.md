@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Get in Touch"
+title: "Contact"
 permalink: /contact/
 author_profile: false
 sidebar:
