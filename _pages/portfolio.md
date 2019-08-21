@@ -16,3 +16,5 @@ var feed = new Instafeed({
             accessToken: 'bfd5aafc0a674124a18ba1caecd02300'
         });
         feed.run();
+
+<div id="instafeed"></div>
