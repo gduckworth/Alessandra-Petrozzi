@@ -10,9 +10,7 @@ sidebar:
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/vue-instagram"></script>
 
-<script>
-  Vue.use(VueInstagram.default)
-</script>
+<script src="ism/js/ism-2.2.min.js"></script>
 
 <template>
   <vue-instagram token="bfd5aafc0a674124a18ba1caecd02300" :count="5" : mediaType="image">
