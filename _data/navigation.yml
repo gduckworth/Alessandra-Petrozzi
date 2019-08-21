@@ -9,6 +9,11 @@ main:
     url: /portfolio/
   - title: "Contact"
     url: /contact/
+  - title: "News"
+    url: /news/
+  - title: "FAQs"
+    url: /faqs/
+
 
 
 # controls sidenav Menu options
@@ -24,6 +29,7 @@ sidenav:
     - title: " Portfolio"
       url: /portfolio/
 
-    - title: " Get in Touch"
+    - title: " Contact"
       url: /contact/
+
 
